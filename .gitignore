@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # Hide my Documentation Page (it contains my API Key)
 helpless-houston.md
+.vercel
