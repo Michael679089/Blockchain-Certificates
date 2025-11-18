@@ -1,0 +1,9 @@
+{
+  "name": "MyNFT #0",
+  "description": "A test NFT for my collection",
+  "image": "https://blush-tricky-gerbil-661.mypinata.cloud/ipfs/bafkreib6mtzm3n23tdp3g6zfpfsugmsm5o3xdfn5lai5sqmbpgm7cg4gpy/0.png",
+  "attributes": [
+    { "trait_type": "Type", "value": "Legendary" },
+    { "trait_type": "Background", "value": "Starfield" }
+  ]
+}
