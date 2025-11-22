@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Basically anything above me can be reinstalled using npm install or vercel 
+/src/generated/prisma

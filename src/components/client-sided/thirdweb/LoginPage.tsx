@@ -12,9 +12,9 @@ export default function LoginPage() {
     const account = useActiveAccount();
     
     useEffect(() => { 
-        if (account) {
-            router.push('/Admin');
-        }
+        // if (account) {
+        //     router.push('/Admin');
+        // }
     }, [account, router]);
     
     if (!account) {
@@ -29,5 +29,5 @@ export default function LoginPage() {
         );
     }
     
-    return <div>Redirecting to Admin...</div>;
+    return <div> Redirecting to Admin...</div>;
 }

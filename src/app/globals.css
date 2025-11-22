@@ -12,6 +12,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme { 
+  --color-regal-blue: #243c5a; 
+  --color-primary-color: #00364d; /* Used for text and icons */
+  --color-secondary-color: #f2f4f6; /* Used for sidebars and boxes */
+  --color-tertiary-color: #46cffb; /* for highlights and attention-seeking */
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -27,4 +35,19 @@ body {
 
 form input, form textarea, form select {
   border: 1px solid black;
+}
+
+.login-page {
+  @apply min-h-screen w-screen bg-white text-black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
 }
